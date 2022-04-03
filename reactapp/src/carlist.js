@@ -11,7 +11,6 @@ function Carlist(){
        data-boxed-layout="full">
 
 
-
          <header class="topbar" data-navbarbg="skin5">
             <nav class="navbar top-navbar navbar-expand-md navbar-dark">
                <div class="navbar-collapse collapse mb-5" id="navbarSupportedContent" data-navbarbg="skin5">
@@ -54,7 +53,6 @@ function Carlist(){
                         </ul>
                      </li> */}
 
-
                    <li class="nav-item dropdown">
                         <a
                            class="
@@ -77,7 +75,6 @@ function Carlist(){
                            width="31"
                            /> */}
                         <img src={logo} alt="user" class="rounded-circle" width="39"></img>
-
 
                         </a>
                         <ul
@@ -116,7 +113,6 @@ function Carlist(){
             </nav>
          </header>
 
-
       <aside class="left-sidebar" data-sidebarbg="skin5">
             <div class="scroll-sidebar">
                <nav class="sidebar-nav">
@@ -128,8 +124,7 @@ function Carlist(){
                      <li class="sidebar-item">
                         <a class="sidebar-link waves-effect waves-dark sidebar-link" href="Addcar" aria-expanded="false"><i class="mdi mdi-border-inside"></i>
                            <span class="hide-menu">Add Car</span></a>
-
-
+                           
                      </li>
                      <li class="sidebar-item">
                         <a class="sidebar-link waves-effect waves-dark sidebar-link" href="" aria-expanded="false"><i class="mdi mdi-blur-linear"></i>
@@ -157,11 +152,9 @@ function Carlist(){
             </div>
          </aside>
 
-
         
         <div class="container pad mt-5">
            <h2 class="text-center">Car List </h2>
-
 
             <div class="card">
                 <h5 class="card-header bg-dark text-white">1 . Car Model : Tata Punch</h5>
@@ -190,6 +183,5 @@ function Carlist(){
     </div>
   );
 }
-
 
 export default Carlist;
