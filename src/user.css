@@ -1,0 +1,28 @@
+body {
+    background: #f7f7f7;
+  }
+  
+  .form-box {
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+    background: #f7f7f7;
+    border: 10px solid #f5f3f3;
+    margin-right: 60px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+  }
+
+  .pad{
+      margin-right: 81px;
+      width: 67%;
+  }
+  .adbg{
+      background: #1f262d;
+  }
